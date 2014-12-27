@@ -21,5 +21,7 @@
   .provider('$algolia', $AlgoliaProvider)
   .provider('Algolia', $AlgoliaProvider);
   
+  angular.module('ngAlgolia', ['angular-algolia']);
+  
 }();
 
